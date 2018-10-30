@@ -1,0 +1,17 @@
+<div class="col s7 m6">
+  <table class="highlight bordered centered" id="table_de_caja">
+    <thead>
+        <th class="center">Codigo</th>
+        <th class="center">Nombre</th>
+        <th class="center">Precio</th>
+        <th class="center">Opciones</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let info of lista">
+	      <td>{{ info.codigo }}</td>
+	      <td>{{ info.name }}</td>
+	      <td>{{ info.precio_cliente }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
