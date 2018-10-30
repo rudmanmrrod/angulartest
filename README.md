@@ -1,6 +1,6 @@
 # Angular Test
 
-Prueba de Angular (versión 4) y Boostrap
+Prueba de Angular (versión 7) y Boostrap
 
 # Angulartest
 
